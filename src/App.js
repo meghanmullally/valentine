@@ -9,10 +9,10 @@ const phrase = [
   "BABEEEEE please",
   "Why you playingggg...",
   <img
-  key="angry-milk-gif"
-  alt="Angry Milk GIF"
-  src="https://media1.tenor.com/m/GGPvcEgpkVcAAAAC/angry-milk.gif"
-/>,
+    key="angry-milk-gif"
+    alt="Angry Milk GIF"
+    src="https://media1.tenor.com/m/GGPvcEgpkVcAAAAC/angry-milk.gif"
+  />,
   "I'm going to cryyyyy",
   "BABOOOOYAAAAA :'("
 ];
@@ -40,7 +40,7 @@ function App() {
             alt="bear laying on top of other bear"
             src="https://media1.tenor.com/m/IL2M9tD6fX4AAAAC/kristigocouple2024.gif"
           />
-        <div className='text'>YAYYY!!!! I LOVE YOU </div>
+          <div className='text'>YAYYY!!!! I LOVE YOU </div>
         </>
       ) : (
         <>
@@ -52,14 +52,14 @@ function App() {
           <div>
             <button
               className='yesBtn'
-              style={{ fontSize: yesBtnSize}}
+              style={{ fontSize: yesBtnSize }}
               onClick={() => setYesPressed(true)}
-              >
-                Yes
-              </button>
-              <button onClick={handleNoClick} className='noBtn'>
-                {getNoBtnText()}
-              </button>
+            >
+              Yes
+            </button>
+            <button onClick={handleNoClick} className='noBtn'>
+              {getNoBtnText()}
+            </button>
           </div>
         </>
 
