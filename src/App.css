@@ -40,3 +40,24 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .valentine-container {
+    padding: 10px; 
+  }
+
+  .text {
+    font-size: 18px; 
+    margin: 10px 0; 
+  }
+
+  .yesBtn, .noBtn {
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
