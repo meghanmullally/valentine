@@ -38,9 +38,9 @@ function App() {
         <>
           <img
             alt="bear laying on top of other bear"
-            src="https://media1.tenor.com/m/IL2M9tD6fX4AAAAC/kristigocouple2024.gif"
+            src="https://media.tenor.com/tYRofzy_PnMAAAAi/hug-love.gif"
           />
-          <div className='text'>YAYYY!!!! I LOVE YOU </div>
+          <div className='text'>YAYYY!!!! I LOVE YOU! ♡</div>
         </>
       ) : (
         <>
